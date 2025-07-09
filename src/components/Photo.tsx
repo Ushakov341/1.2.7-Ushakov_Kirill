@@ -5,7 +5,7 @@ function Photo() {
     return(
         <>
         <div className="description">
-        <img className="photo--default" src={defaultUserPhoto} />
+        <img className="photo--default" src={'../defaultUserPhoto'} />
         <h4>{userProfile.userName}</h4>
         <p>{userProfile.userDescription}</p>
       </div>

@@ -6,7 +6,13 @@ function Interests() {
         <>
         <div className="card">
           <div className="card-header">Интересы</div>
-          <div className="card-content"></div>
+            {userProfile.map ((userProfile) => ( 
+              <ul className="card-content">
+            <li className="content-item">
+            {userProfile.interests}
+            </li>
+            </ul>
+           ))}
         </div>
         </>
         )
